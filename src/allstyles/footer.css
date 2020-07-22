@@ -1,0 +1,6 @@
+/* styling for footer */
+.footer{text-align: center;
+    display: grid;
+    background-color:rgb(8, 203, 238);
+    margin-top: 0;
+    padding-bottom: 20px;}

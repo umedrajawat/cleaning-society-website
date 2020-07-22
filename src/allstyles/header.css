@@ -1,0 +1,75 @@
+/* styling for header of homepage */
+/* styling for header container */
+.header-container{
+    display:grid;
+     grid-template-columns: 1fr 1fr;
+
+}
+/* styling for kdu tet container */
+.kdu-container{
+    display: grid;
+    /* margin-right: 150px; */
+}
+h3{
+    margin-top: 20px;font-size: 25px;
+}
+/* styling for list of items in container */
+.header-list-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+a{
+    margin-right: 20px;margin-top: 15px;display: grid;
+}
+/* styling for buttons */
+button{
+    background-color: rgb(26, 202, 214);
+    box-sizing: content-box;
+    padding: 10px;
+    margin-top: 0px;
+    border: none;list-style-type: none;display: grid;
+}
+/* styling for booking button */
+.Bookingbtn{
+    background-color: rgb(26, 202, 214);
+    width: 60%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+/* adding media queries for displaying in different resolution devices */
+@media (min-width: 576px) {
+    .header-container{
+       display: grid;
+    }
+   }
+ 
+ @media (max-width: 768px) {
+     .header-container{
+         
+         display: grid;
+         grid-template-columns: 1fr;
+     }
+     .kdu-container{
+         display: grid;
+         grid-template-columns: 1fr;
+     }
+     .header-ul{
+         display: grid;
+         grid-template-columns: 1fr;
+     }
+ 
+   }
+ 
+ @media (min-width: 992px) {
+     .header-container{
+         display: grid;
+     }
+  }
+ 
+ @media (min-width: 1200px) {
+     .header-container{
+        display: grid;
+     }
+  }

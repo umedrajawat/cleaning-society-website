@@ -1,0 +1,11 @@
+
+/* styling for title  */
+.title{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.title h1{
+    font-size: 46px;
+    margin-bottom: 23px;
+    text-align: center;
+}

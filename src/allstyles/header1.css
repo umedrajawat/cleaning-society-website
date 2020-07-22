@@ -1,0 +1,32 @@
+/* styling for header of bookin page */
+/* styling for header container */
+.header1-container{
+    display: grid;
+    position: fixed;
+    grid-template-columns: 2fr 1fr;
+    background-color: white;
+    width: 100%
+}
+/* styling for header */
+.header{
+    text-align: center;
+}
+/* styling for text in header  */
+#head{
+    color:#45C3D3 ;
+    font-size: 45px;
+    padding-right: 55%;
+    border-radius: 1px;
+
+}
+/* styling fpor no. in header */
+#no{
+    padding-left: 10%;
+    font-size: 38px;
+    display: grid;
+    place-items: stretch;
+
+}
+.ly{
+    color: #565F60;
+}

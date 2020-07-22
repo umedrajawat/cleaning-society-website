@@ -1,0 +1,136 @@
+/* styling for .sec5-container */
+.sec5-container{
+    display: grid ;
+    margin-top: 100px;
+}
+/* styling for .sec5-container1 */
+.sec5-container1{
+    display: grid;
+    background-color: rgb(215, 243, 247);
+    height: 300px;
+    justify-content: center;
+    padding-bottom: 0%;
+    display: grid;
+}
+/* styling for .sec5-container1-1 */
+.sec5-container1-1{
+    margin-bottom: 80px;
+    display: grid;
+    height: 20px;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+}
+/* styling for .sec5-container-2 */
+.sec5-container-2{
+    margin-top: 0px;
+    text-align: center;
+    display: grid;
+    margin-bottom: 0%;
+}
+/* styling for .sec5-container-3 */
+.sec5-container-3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+}
+.email{
+    text-align: center;
+}
+.zipcode{
+    text-align: center;
+}
+button{
+    background-color:#01BFFF;
+    align-items: center;
+    text-align: center;
+}
+/* styling for .sec5-container2 */
+.sec5-container2{
+    display:grid;
+     background-color: rgb(8, 203, 238);
+     height: 300px;
+     grid-template-columns: 1fr 1fr 1fr 1fr ;
+     place-items: center;
+    }
+ul{
+    list-style-type: none;
+    display: grid;
+}
+/* styling for .sec5-container2-1 */
+.sec5-container2-1{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/* styling for .sec5-container2-1-1 */
+.sec5-container2-1-1{
+    margin-top: 17px;
+    display: grid;
+}
+/* styling for different icons */
+.fa fa-facebook{
+    margin-right: 20px; 
+    color: white;
+}
+.fa fa-twitter{
+    margin-right: 20px;
+     color: blue;
+    }
+.fa fa-instagram{
+    margin-right: 20px; color: dark pink;}
+.fa fa-pinterest{
+    margin-right: 20px; color: red;
+}
+.fa fa-skype{
+    margin-right: 20px; color: white;
+}
+.icon{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 0px;
+}
+/* styling for different forms */
+.form2{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;}
+.form1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0%;
+}
+.list3 li{
+    margin-bottom: 15px;
+}
+.f-div{
+    margin: 0px;
+}
+
+/* media queries for different resolutions */
+@media screen and (max-width:768px){
+    .sec5-container2{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 900px;
+    }
+    .sec5-container1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .form1{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 70%;
+    }
+    .form2{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .sec5-container1{
+        height: 600px;
+    }
+    .form2 input[type="email"]{
+        width: 100%;
+    }
+}

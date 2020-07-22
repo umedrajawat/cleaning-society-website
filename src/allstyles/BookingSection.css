@@ -1,0 +1,320 @@
+/* main container having 2 main divs that is divided into 2parts */
+.booking-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-right: 20px;
+    padding-left: 20px;
+   
+}
+/* styling for heading */
+.PrefHeading{
+    background-color: #45C3D3;
+    display: grid;
+    color: white;
+    place-items: center;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+.PrefHeading h1{
+    display: grid;
+    padding: 20px;
+}
+/* styling for summary title */
+.sumTit{
+    background-color: #45C3D3;
+    /* height: 78px; */
+    color: white;
+    place-items: center;
+    margin-top: 40px;
+
+}
+/* styling for summary div */
+.summary{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding-right: 20px;
+}
+.type{
+    padding-right: 30%;
+    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #8B9AAC;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    grid-template-columns: 1fr;
+}
+
+
+
+.type p{
+    margin-left: 0;
+}
+/* styling for bookin container1  */
+.booking-container1{
+    background-color: #FFFFFF;
+    display: grid;
+    margin-right: 20px;
+}
+/* stylin for list items in nav */
+nav ul li{
+    margin-top: 30px;
+    padding-left: 30px;
+    color: #8B9AAC;
+}
+/* styling for title  */
+.title p{
+    color: #8B9AAC;
+} 
+.sumTit h1{
+    padding-top: 25px;
+    padding: 8px;
+    margin-bottom: 10px;
+    place-self: baseline;
+}
+
+.type-options{
+    display: grid;
+}
+
+/* styling for displaycard cotaining cards */
+.displayCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+    
+    
+}
+/* styling for each card */
+.Cards{
+    display: grid;
+    border: 1px solid  #8B9AAC;
+    border-radius: 10px;
+    height: 62px; 
+    padding-right: 40px;
+    place-items: center;
+    margin: 10px;
+
+}
+/* styling for summary container */
+.booking-container2{
+    margin-left: 20px;
+    display: grid;
+  
+}
+/* styling for bold texts */
+#strong{
+    text-align-last: start;
+    margin-left: 10px;
+}
+/* stylin for image data */
+.imageData1{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  
+}
+.imgData2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+/* stylin for images */
+img{
+    display: grid; 
+    /* height: 10px; */
+    height: 80%;
+    width: 40%;
+    /* height: 30%; */
+    margin-left: 30%;
+    padding-bottom: 10px;
+
+}
+
+/* .summary{
+    position: fixed;
+}  */
+.title h1{
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
+}
+/* styling for div containing add minus buttons */
+.addminus{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* styling for div containing time and calender */
+.selectTime{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* styling for add minus button */
+.addminus button{
+    background-color: white;
+    border: 1px solid  #8B9AAC ;
+    height: 3px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+.addminus{
+    border: 1px solid  #8B9AAC ;
+    width: 60%;
+    height: 30px;
+    margin-left: 35px;
+}
+/* styling for date input  */
+input[type="date"]{
+    width: 60%;
+   
+    height: 30px;
+}
+#pid{
+    color: #8B9AAC;
+    font-size: 12px;
+    padding-top: 5px;
+
+}
+/* styling for input tags */
+.f{
+    height: 60px;
+    border-radius: 2%;
+    font-size: 25px;
+    align-items: center;
+    padding-left: 20px;
+    width: 90%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+/* styling for form2 */
+.form2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* stylin for form3 */
+.form3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+/* styling for form4 */
+.form4{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* styling for booking button */
+.finalbtn{
+    background-color: #98E250;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 99px;
+}
+/* styling for imgcard */
+.imgcard{
+    border: 1px solid  #8B9AAC;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+/* adding media queries
+making all divs align in single line */
+@media (max-width: 576px) { 
+    .imgData2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .displayCard{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .header{
+        margin-top: 20px;
+    }
+    
+
+}
+/* media queries for 768px devices */
+@media (max-width: 768px) { 
+    .imageData1{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .imgData2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .selectTime{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .form2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .form3{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .header{
+        margin-top: 20px;
+    }
+
+
+   
+
+}
+/* media queries for 992px devices */
+@media (max-width: 992px) { 
+    .booking-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 40px;
+        margin-right: 40px;
+        
+    }
+    .booking-container1{
+        grid-template-columns: 1fr;
+        display: grid;
+      
+    }
+    .displayCard{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .booking-container2{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+
+    }
+    .header{
+        margin-top: 20px;
+    }
+    /* .summary{
+        position: fixed;
+    } */
+ }
+/* media queries for laptp resolutions and above */
+@media (min-width: 1200px) { 
+    .booking-container2{
+        margin-left: 20px;
+        display: grid;
+       
+    }
+     .summary{
+        position: fixed;
+    } 
+}
